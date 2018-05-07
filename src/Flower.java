@@ -31,11 +31,6 @@ import com.google.gson.JsonSyntaxException;
  }
 
 
- public void print() {
-
-  System.out.print("In CuteFlowerStore you will find a ");
-
- }
  public String toString() {
   return name + " " + colour + " " + cost;
  }
